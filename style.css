@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: url(pexels-photo-440731.jpeg);
+    background-size: cover;
+    
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: darkorange;
+    padding: 15px;
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.425);
+}
+
+.menu {
+    display: flex;
+    gap: 12px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a:hover {
+    color: rgb(255, 192, 115);
+}
